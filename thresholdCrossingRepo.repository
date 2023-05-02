@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="ASCII"?>
+<repository:Repository xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:repository="http://palladiosimulator.org/PalladioComponentModel/Repository/5.2" xmlns:seff="http://palladiosimulator.org/PalladioComponentModel/SEFF/5.2" id="_eEJ9cOjtEe2DG6SI9gyhYw" entityName="New Repository">
+  <components__Repository xsi:type="repository:BasicComponent" id="_saKZsOjtEe2DG6SI9gyhYw" entityName="BasicService">
+    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_tkRm8OjuEe2DG6SI9gyhYw" entityName="BasicService.Interface1.OperationProvidedRole1" providedInterface__OperationProvidedRole="_feL2AOjuEe2DG6SI9gyhYw"/>
+    <serviceEffectSpecifications__BasicComponent xsi:type="seff:ResourceDemandingSEFF" id="_tkoMQOjuEe2DG6SI9gyhYw" describedService__SEFF="_gVc1MOjuEe2DG6SI9gyhYw">
+      <steps_Behaviour xsi:type="seff:StartAction" id="_tktEwOjuEe2DG6SI9gyhYw" successor_AbstractAction="_7ZC-YOjuEe2DG6SI9gyhYw"/>
+      <steps_Behaviour xsi:type="seff:StopAction" id="_tktr0OjuEe2DG6SI9gyhYw" predecessor_AbstractAction="_7ZC-YOjuEe2DG6SI9gyhYw"/>
+      <steps_Behaviour xsi:type="seff:InternalAction" id="_7ZC-YOjuEe2DG6SI9gyhYw" entityName="InternalAction1" predecessor_AbstractAction="_tktEwOjuEe2DG6SI9gyhYw" successor_AbstractAction="_tktr0OjuEe2DG6SI9gyhYw">
+        <resourceDemand_Action>
+          <specification_ParametericResourceDemand specification="100"/>
+          <requiredResource_ParametricResourceDemand href="pathmap://PCM_MODELS/Palladio.resourcetype#_oro4gG3fEdy4YaaT-RYrLQ"/>
+        </resourceDemand_Action>
+      </steps_Behaviour>
+    </serviceEffectSpecifications__BasicComponent>
+  </components__Repository>
+  <interfaces__Repository xsi:type="repository:OperationInterface" id="_feL2AOjuEe2DG6SI9gyhYw" entityName="Interface1">
+    <signatures__OperationInterface id="_gVc1MOjuEe2DG6SI9gyhYw" entityName="doSomething"/>
+  </interfaces__Repository>
+</repository:Repository>

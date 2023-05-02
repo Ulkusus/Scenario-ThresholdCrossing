@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="ASCII"?>
+<allocation:Allocation xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:allocation="http://palladiosimulator.org/PalladioComponentModel/Allocation/5.2" id="_1OnnAOjvEe2DG6SI9gyhYw" entityName="New Allocation">
+  <targetResourceEnvironment_Allocation href="thresholdCrossingResourceEnvironment.resourceenvironment#/"/>
+  <system_Allocation href="thresholdCrossingAssembly.system#_KBa9AOjvEe2DG6SI9gyhYw"/>
+  <allocationContexts_Allocation id="_9INZcOjvEe2DG6SI9gyhYw" entityName="Allocation_Assembly_BasicService">
+    <resourceContainer_AllocationContext href="thresholdCrossingResourceEnvironment.resourceenvironment#_fYoLIOjvEe2DG6SI9gyhYw"/>
+    <assemblyContext_AllocationContext href="thresholdCrossingAssembly.system#_TUfD0OjvEe2DG6SI9gyhYw"/>
+  </allocationContexts_Allocation>
+</allocation:Allocation>

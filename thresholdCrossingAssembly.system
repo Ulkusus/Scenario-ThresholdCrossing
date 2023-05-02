@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ASCII"?>
+<system:System xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:composition="http://palladiosimulator.org/PalladioComponentModel/Core/Composition/5.2" xmlns:repository="http://palladiosimulator.org/PalladioComponentModel/Repository/5.2" xmlns:system="http://palladiosimulator.org/PalladioComponentModel/System/5.2" id="_KBa9AOjvEe2DG6SI9gyhYw" entityName="New System">
+  <assemblyContexts__ComposedStructure id="_TUfD0OjvEe2DG6SI9gyhYw" entityName="Assembly_BasicService">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="thresholdCrossingRepo.repository#_saKZsOjtEe2DG6SI9gyhYw"/>
+  </assemblyContexts__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_XTGOcOjvEe2DG6SI9gyhYw" entityName="newProvidedDelegationConnector" outerProvidedRole_ProvidedDelegationConnector="_WKYS4OjvEe2DG6SI9gyhYw" assemblyContext_ProvidedDelegationConnector="_TUfD0OjvEe2DG6SI9gyhYw">
+    <innerProvidedRole_ProvidedDelegationConnector href="thresholdCrossingRepo.repository#_tkRm8OjuEe2DG6SI9gyhYw"/>
+  </connectors__ComposedStructure>
+  <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_WKYS4OjvEe2DG6SI9gyhYw" entityName="Interface1ProvidedRole">
+    <providedInterface__OperationProvidedRole href="thresholdCrossingRepo.repository#_feL2AOjuEe2DG6SI9gyhYw"/>
+  </providedRoles_InterfaceProvidingEntity>
+</system:System>
